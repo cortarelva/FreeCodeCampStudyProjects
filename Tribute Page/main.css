@@ -1,0 +1,46 @@
+#main{
+    padding-right: 5px;
+    padding-left: 5px; 
+    text-align:center;
+}
+
+#tribute-info{
+    position:absolute;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+ul{
+    
+    text-align:left;
+    
+}
+li{
+    list-style-type: disc;
+}
+img{
+    
+}
+
+@media screen and (max-width: 900px){
+    #tribute-info{
+        position:relative;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #tribute-info{
+        position:relative;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #tribute-info{
+        position:relative;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
