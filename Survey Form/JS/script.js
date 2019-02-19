@@ -1,4 +1,3 @@
-window.onload = function(){
 
 let name = document.getElementById("name");
 
@@ -22,4 +21,3 @@ function buttonAlert(){
 document.getElementById("button").onclick =  buttonAlert();
 
 
-}
