@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header-img{
+    width: 70px;
+}
+nav{
+    position: sticky;
+}
+#nav-bar a{
+   
+    display: inline-block;
+    padding:15px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+a {
+        
+}
+.container{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.container-features{
+    text-align: left;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container > div{
+margin:10px;
+padding:80px;
+border:solid;
+}
+#title{
+    text-align:center;
+}
+form{
+    padding-top: 20px;
+    text-align: center;
+}
+#submit{
+    background-color: greenyellow;
+}
+footer{
+    text-align: right;
+    background-color: pink;
+}
+footer li{
+    padding: 15px;
+    font-weight: bold;
+}
+#about p{
+    font-weight: bold;
+}
