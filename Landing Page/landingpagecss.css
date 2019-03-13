@@ -1,14 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-#header-img{
-    width: 70px;
+header{
+    
 }
-nav{
-    position: sticky;
-}
+
 #nav-bar a{
-   
     display: inline-block;
     padding:15px;
 }
@@ -19,7 +16,8 @@ li{
     display: inline;
 }
 a {
-        
+    font-weight: bold; 
+    color: black;
 }
 .container{
     text-align: center;
@@ -58,4 +56,9 @@ footer li{
 }
 #about p{
     font-weight: bold;
+}
+@media screen and (min-width: 480px){
+    body{
+        background-color: antiquewhite
+    }
 }
